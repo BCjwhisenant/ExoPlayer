@@ -208,6 +208,18 @@
         "uri": "https://storage.googleapis.com/wvmedia/cbcs/h264/tears/tears_aes_cbcs_uhd.mpd",
         "drm_scheme": "widevine",
         "drm_license_url": "https://proxy.uat.widevine.com/proxy?provider=widevine_test"
+      },
+      {
+        "name": "WV: Bolt KungFu",
+        "uri": "https://solutions.brightcove.com/jwhisenant/dash/41087/modified__kungfu_manifest.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_url": "https://manifest.prod.boltdns.net/license/v1/cenc/widevine/3636334164001/3edc3382-3c49-464e-956b-94974c283c22/afff2217-e360-4638-80fb-6eee14e37907?fastly_token=NWIwODg2MjFfYThlNjY4MzdjMjUyMzJhYmUzYzY4MzU1NDM3NjAyNThiNzA5ZTc0ZmQ5MGRiYTg3M2M2YWExN2UyMjQ4Y2E3NQ%3D%3D"
+      },
+      {
+        "name": "WV: Lightbox L1 Test",
+        "uri": "https://solutions.brightcove.com/jwhisenant/dash/41087/modified_lightbox_manifest.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_url": "https://manifest.prod.boltdns.net/license/v1/cenc/widevine/5641866319001/6e4e7cdf-495d-46df-8a18-8c7cfd735483/956ce58a-8153-4390-93c7-ec936f2c2af2?fastly_token=NWIwODgyY2VfYzFlZDBlNjhkYTk3MGU3ZDk1ZjdkNGIyMzg1ZTQzNGMzYmJjNjg3YTQ4MDZkNGRhMDFjOTFjNDg4MDEwYmYwNA%3D%3D"
       }
     ]
   },
