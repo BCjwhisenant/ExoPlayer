@@ -206,6 +206,12 @@ import java.util.Locale;
     new Sample("WV: Secure UHD (MP4,H265)", "", "widevine_test",
         "https://storage.googleapis.com/wvmedia/cenc/hevc/tears/tears_uhd.mpd",
         Util.TYPE_DASH),
+          new Sample("WV: Bolt KungFu", "", "widevine_test",
+                  "https://solutions.brightcove.com/jwhisenant/dash/41087/modified__kungfu_manifest.mpd",
+                  Util.TYPE_DASH),
+          new Sample("WV: Lightbox L1", "", "widevine_test",
+                  "https://solutions.brightcove.com/jwhisenant/dash/41087/modified_lightbox_manifest.mpd",
+                  Util.TYPE_DASH),
   };
 
   public static final Sample[] HLS = new Sample[] {

@@ -41,7 +41,13 @@ public class WidevineTestMediaDrmCallback implements MediaDrmCallback {
 
   public WidevineTestMediaDrmCallback(String contentId, String provider) {
     String params = "?video_id=" + contentId + "&provider=" + provider;
-    defaultUri = WIDEVINE_GTS_DEFAULT_BASE_URI + params;
+//    defaultUri = WIDEVINE_GTS_DEFAULT_BASE_URI + params;
+
+    // Lightbox
+//    defaultUri = "https://manifest.prod.boltdns.net/license/v1/cenc/widevine/5641866319001/6e4e7cdf-495d-46df-8a18-8c7cfd735483/956ce58a-8153-4390-93c7-ec936f2c2af2?fastly_token=NWIwODgyY2VfYzFlZDBlNjhkYTk3MGU3ZDk1ZjdkNGIyMzg1ZTQzNGMzYmJjNjg3YTQ4MDZkNGRhMDFjOTFjNDg4MDEwYmYwNA%3D%3D";
+
+    // Brightcove
+    defaultUri = "https://manifest.prod.boltdns.net/license/v1/cenc/widevine/3636334164001/3edc3382-3c49-464e-956b-94974c283c22/afff2217-e360-4638-80fb-6eee14e37907?fastly_token=NWIwODg2MjFfYThlNjY4MzdjMjUyMzJhYmUzYzY4MzU1NDM3NjAyNThiNzA5ZTc0ZmQ5MGRiYTg3M2M2YWExN2UyMjQ4Y2E3NQ%3D%3D";
   }
 
   @Override
